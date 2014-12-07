@@ -1,11 +1,12 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Highlighter",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "Highlight text from webpages and view them at any time!",
   "icons": {
-    "16": "icons/icon.png"
+    "16": "icons/icon.png",
+    "48": "icons/icon.png",
+    "128": "icons/icon.png"
   },
   "default_locale": "en",
   "browser_action": {
