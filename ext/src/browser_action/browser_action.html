@@ -3,7 +3,7 @@
 	#mainPopup {
 		padding: 10px;
 		height: 200px;
-		width: 400px;
+		width: 200px;
 		font-family: Helvetica, Ubuntu, Arial, sans-serif;
 	}
 	h1 {
@@ -15,8 +15,11 @@
 <script src="browser_action.js"></script>
 
 <div id="mainPopup">
-<h1>Hello extensionizr!</h1>
-<p>To shut this popup down, edit the manifest file and remove the "default popup" key. To edit it, just edit ext/browser_action/browser_action.html. The CSS is there, too.</p>
+<h1>Highlighter</h1>
+<form action="">
+<input type="checkbox" name="status" value="highlight">Toggle Highlight
+</form><br>
+<p>Choose Highlight Colors:</p><br>
 <input type="image" id="yellow" src="../../icons/yellowbutton.png" onclick="click(e)"/>
 <input type="image" id="blue" src="../../icons/bluebutton.png" onclick="click(e)" />
 </div>
